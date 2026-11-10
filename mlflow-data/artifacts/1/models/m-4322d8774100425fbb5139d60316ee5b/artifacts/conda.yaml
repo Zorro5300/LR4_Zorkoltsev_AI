@@ -1,0 +1,16 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.13.2
+- pip<=26.3
+- pip:
+  - mlflow==3.5.0
+  - scikit-learn==1.7.2
+  - pandas
+  - numpy
+  - fastapi
+  - uvicorn[standard]
+  - pydantic
+  - requests
+  - matplotlib
+name: mlflow-env
